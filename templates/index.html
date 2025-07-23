@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>יצירת מודעת פייסבוק אוטומטית</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f4f4; text-align: right; padding: 30px; direction: rtl; }
+        form { background-color: white; padding: 30px; border-radius: 10px; width: 400px; margin: auto; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+        label { font-weight: bold; }
+        textarea, input[type="file"] { width: 100%; margin: 10px 0; padding: 10px; font-size: 16px; box-sizing: border-box; }
+        button { padding: 10px 20px; background-color: #1877f2; color: white; border: none; font-size: 16px; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #145bd6; }
+    </style>
+</head>
+<body>
+    <h1>🧠✨ יצירת מודעת פייסבוק בעזרת בינה מלאכותית</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label>מה ברצונך לפרסם?</label><br>
+        <textarea name="prompt" rows="4" placeholder="למשל: שיעורי יוגה בתל אביב..." required></textarea><br>
+        <label>העלאת תמונה (לא חובה):</label><br>
+        <input type="file" name="image" accept="image/*"><br>
+        <button type="submit">🎯 צור מודעה</button>
+    </form>
+</body>
+</html>
